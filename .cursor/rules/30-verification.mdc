@@ -1,0 +1,8 @@
+---
+description: Verify changes with the smallest relevant evidence
+alwaysApply: true
+---
+
+先查專案既有測試、lint、build 和 CI 指令，優先執行最小相關檢查。瀏覽器功能要驗證實際入口、關鍵互動及相關錯誤；資料處理要核對來源、筆數、欄位與代表性樣本。
+
+回報實際命令、結果、證據位置與未測風險。無法執行時明確標示原因，不以推測或模型自評代替驗證。

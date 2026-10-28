@@ -1,0 +1,25 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+tokens.json
+
+# Local tool configuration that may contain private endpoints or tokens
+.mcp.json
+.cursor/mcp.json
+.claude/settings.local.json
+settings.local.json
+
+# Runtime output
+*.log
+node_modules/
+dist/
+build/
+coverage/

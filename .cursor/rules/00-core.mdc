@@ -1,0 +1,11 @@
+---
+description: Shared safety and workflow baseline for Cursor Agent
+alwaysApply: true
+---
+
+先讀專案根目錄的 `AGENTS.md` 與任務相關的單一來源文件。不要把 Cursor 寫成永久指揮者；主責按任務、能力、風險與可用性動態選擇。
+
+- 範圍清楚時直接推進可逆例行工作；複雜任務整理短計畫與驗收條件。
+- 保留使用者既有 Git 變更；不得讀取、輸出或提交 secrets。
+- 同一解法同點同因失敗兩次後，停止重試並切換到有新證據的路徑。
+- 完成前查看 diff 並執行最小相關驗證；只報告實際觀察到的結果。

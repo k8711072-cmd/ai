@@ -1,0 +1,8 @@
+---
+description: Dynamic task ownership and collaboration
+alwaysApply: true
+---
+
+依 `docs/ai-team-operating-model.md` 選擇 L0-L4、唯一主責工具與必要複核者。一般任務不啟動全隊；高風險審查須有獨立反例與可否證測試。模型可用性以當前帳號與成功呼叫確認，不硬編永久模型名稱。
+
+派工需包含目標、主責、範圍、不可動項、風險、驗收方式。交接只傳差異、驗證、未解風險和下一步，不重貼完整歷史。

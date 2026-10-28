@@ -1,0 +1,6 @@
+---
+description: Compact, evidence-based task handoff
+alwaysApply: true
+---
+
+長任務或上下文切換時，僅記錄目標、主責、已完成差異、修改檔案、驗證命令/結果、未解風險、阻礙與下一步。只在已有可靠證據時標記 Runner 或背景工作狀態；不重複貼聊天全文。
