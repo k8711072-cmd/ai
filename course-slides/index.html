@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI 在工作中的實務應用｜製造業零基礎教學簡報</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Sora:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="stage" id="stage" aria-live="polite">
+    <!-- 1 -->
+    <section class="slide active" data-title="封面">
+      <div class="hero">
+        <p class="eyebrow">高雄市工業會｜課後教學精華版</p>
+        <h1>AI 在工作中的<br />實務應用</h1>
+        <p class="lede">製造業零基礎個人實作｜可直接上課的操作簡報</p>
+        <div class="meta-row">
+          <span>原課講師：簡良諭</span>
+          <span>工具主軸：Google Gemini</span>
+          <span>時長對應：約 2.5–3 小時</span>
+        </div>
+        <p class="hint">← → 或空白鍵換頁 · 按 <kbd>F</kbd> 全螢幕 · <kbd>O</kbd> 總覽</p>
+      </div>
+    </section>
+
+    <!-- 2 -->
+    <section class="slide" data-title="今天學什麼">
+      <h2>今天學什麼</h2>
+      <p class="sub">目標：會操作流程，不追求抄完整筆記</p>
+      <ol class="agenda">
+        <li><strong>入門設定</strong>：登入、選模型、開個人智慧化連結</li>
+        <li><strong>文字整理鏈</strong>：清單 → 表格 → 條列 → 匯出文件</li>
+        <li><strong>ACE 溝通原則</strong>：角色／任務／強化條件</li>
+        <li><strong>AI 視覺</strong>：截圖分析、菜單 OCR、影像生成</li>
+        <li><strong>製造業五案例</strong>：異常報告、SOP、Excel、溝通</li>
+      </ol>
+    </section>
+
+    <!-- 3 -->
+    <section class="slide" data-title="工具與模型">
+      <h2>工具與模型選擇</h2>
+      <div class="grid-2">
+        <div class="panel">
+          <h3>建議主工具</h3>
+          <ul>
+            <li>Google 帳號登入 → 九宮格開 <strong>Gemini</strong></li>
+            <li>練習請選 <strong>Flash-Lite / 輕量版</strong></li>
+            <li>Lite 可覆蓋約八成日常工作，較不易爆額度</li>
+          </ul>
+        </div>
+        <div class="panel accent">
+          <h3>講師提醒</h3>
+          <ul>
+            <li>全程可用免費版完成今日練習</li>
+            <li>若要付費：用一般 Gmail，勿用 edu</li>
+            <li>Google 家庭群組最多 6 人共用方案，帳號對話互不影響</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 -->
+    <section class="slide" data-title="必做設定">
+      <h2>必做設定（加一／加二）</h2>
+      <ol class="steps">
+        <li>登入 Google → 開啟 Gemini → 選 Lite</li>
+        <li>側邊欄 → <strong>設定</strong> → 先看「用量限制」</li>
+        <li>設定 → <strong>個人智慧化服務</strong></li>
+        <li>開啟 <strong>連結應用程式</strong>：Google Workspace、Google 搜尋、YouTube</li>
+      </ol>
+      <p class="callout">連結打開後，才能把回覆整理成 Google 文件／試算表，並當行事曆秘書。</p>
+    </section>
+
+    <!-- 5 -->
+    <section class="slide" data-title="核心觀念">
+      <h2>五個核心觀念</h2>
+      <div class="cards">
+        <article><h3>AI ≠ 搜尋</h3><p>還沒想出關鍵字時，AI 更適合創意與會診。</p></article>
+        <article><h3>新主題新對話</h3><p>長對話會回頭掃前文，消耗額度。</p></article>
+        <article><h3>指令要精準</h3><p>「不要 A」不夠；要說「不要 A，換一種」。</p></article>
+        <article><h3>欄名加引號</h3><p>刪欄時用「欄名」成對指定，避免整列被刪。</p></article>
+        <article><h3>最後才彙整</h3><p>資訊問齊後，再請「整理成企劃書／報告」。</p></article>
+        <article><h3>人要做最終確認</h3><p>AI 負責草稿與整理，責任歸屬不可交給模型。</p></article>
+      </div>
+    </section>
+
+    <!-- 6 -->
+    <section class="slide" data-title="ACE">
+      <h2>ACE 溝通原則</h2>
+      <div class="ace">
+        <div><span class="letter">A</span><div><strong>角色 Actor</strong><p>你是資深導遊／品保工程師／生產主管助理…</p></div></div>
+        <div><span class="letter">C</span><div><strong>任務 Context</strong><p>要做什麼、給什麼背景與資料</p></div></div>
+        <div><span class="letter">E</span><div><strong>強化 Enhance</strong><p>限制、格式、排除條件、自檢要求</p></div></div>
+      </div>
+      <p class="callout">角色不會永久記住：每個新對話都要再講一次。</p>
+    </section>
+
+    <!-- 7 -->
+    <section class="slide" data-title="入門練習">
+      <h2>入門練習鏈（講義約 p.6）</h2>
+      <ol class="steps compact">
+        <li>給我十種台灣小吃</li>
+        <li>不要蚵仔煎，換一種</li>
+        <li>給我這些小吃的英文翻譯</li>
+        <li>整理成表格：小吃｜英文｜中文說明</li>
+        <li>改成條列；再刪除「英文翻譯」「中文說明」兩欄</li>
+        <li>複製到 Word → 表格設計 → 補框線</li>
+      </ol>
+    </section>
+
+    <!-- 8 -->
+    <section class="slide" data-title="文件產出">
+      <h2>從問答到 Google 文件</h2>
+      <div class="grid-2">
+        <div class="panel">
+          <h3>示範：大阪五日行</h3>
+          <ul>
+            <li>定角色：日本在地資深導遊</li>
+            <li>要行程；再補地鐵／巴士站點與出入口</li>
+            <li>可再問特定月份活動</li>
+            <li>最後：「把以上整理成旅遊企劃書」</li>
+          </ul>
+        </div>
+        <div class="panel accent">
+          <h3>易錯</h3>
+          <ul>
+            <li>太早要求企劃書 → 資訊不足</li>
+            <li>只問行程不問交通 →「好看但走不動」</li>
+            <li>未連結 Workspace → 開不出文件</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9 -->
+    <section class="slide" data-title="AI視覺">
+      <h2>AI 視覺：圖表與菜單</h2>
+      <div class="grid-2">
+        <div class="panel">
+          <h3>圖表（約 p.11）</h3>
+          <ol>
+            <li>Win + Shift + S 擷取圖表</li>
+            <li>貼到 Gemini：「請分析此圖表」</li>
+            <li>「請將圖表改製成表格」</li>
+            <li>匯出 Google 試算表／重繪圖</li>
+          </ol>
+        </div>
+        <div class="panel">
+          <h3>菜單／街景（約 p.12）</h3>
+          <ol>
+            <li>上傳菜單圖</li>
+            <li>翻譯並製表：日文｜中文｜日幣｜台幣</li>
+            <li>加碼：預算 2500 日圓配三套菜</li>
+            <li>街景照可做景點辨識導覽</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10 -->
+    <section class="slide" data-title="影像生成">
+      <h2>影像生成練習（加分）</h2>
+      <ul class="pill-list">
+        <li>表情替換／遮瑕上妝</li>
+        <li>老照片修復上色</li>
+        <li>手繪草圖 → 真實產品</li>
+        <li>虛擬試衣（保留姿勢）</li>
+        <li>參考圖動作控制</li>
+        <li>刪除路人、場景替換</li>
+      </ul>
+      <p class="sub">適合電商樣片構想與教材示意；非正式量產驗證。</p>
+    </section>
+
+    <!-- 11 -->
+    <section class="slide" data-title="製造業五案例">
+      <h2>製造業應用五方向</h2>
+      <ol class="agenda">
+        <li>產線異常日報 → 正式報告與主管摘要</li>
+        <li>口述經驗 → SOP 與測驗題</li>
+        <li>品質／客訴資料 → 改善方向</li>
+        <li>產線 Excel → 公式、樞紐、主管焦點</li>
+        <li>催交口語 → 對內／對外正式溝通</li>
+      </ol>
+      <p class="callout">公司 know-how 在資深員工；AI 負責整理，不直接當「你們廠的標準答案」。</p>
+    </section>
+
+    <!-- 12 -->
+    <section class="slide" data-title="六段提示詞">
+      <h2>提示詞六段架構</h2>
+      <table class="nice">
+        <thead><tr><th>元素</th><th>說明</th><th>製造業範例</th></tr></thead>
+        <tbody>
+          <tr><td>角色</td><td>請 AI 扮演職位助理</td><td>你是製造業品保工程師</td></tr>
+          <tr><td>任務</td><td>說明要完成什麼</td><td>整理客訴原因並提改善方向</td></tr>
+          <tr><td>資料</td><td>附件或貼上內容</td><td>以下是八月不良紀錄</td></tr>
+          <tr><td>限制</td><td>禁止編造、標不足</td><td>不足處寫「需人工確認」</td></tr>
+          <tr><td>格式</td><td>指定輸出樣式</td><td>用表格：問題／原因／對策／負責人</td></tr>
+          <tr><td>檢核</td><td>要求自檢</td><td>最後列出 3 個可能遺漏風險</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- 13 -->
+    <section class="slide" data-title="異常報告">
+      <h2>案例：異常日報作業鏈</h2>
+      <ol class="steps compact">
+        <li>上傳異常紀錄表（日期、班別、產線、現場紀錄…）</li>
+        <li>產出正式異常報告：摘要／時間／影響／原因／處置／追蹤</li>
+        <li>再要約 200 字主管摘要＋今日最需追蹤 3 條</li>
+        <li>產出待辦：事項、單位、期限、需確認資料、風險</li>
+        <li>品質檢核：邏輯跳躍、責任過早、資料不足卻下定論</li>
+        <li>（進階）一次丟四段提示，要求整理成多個 Word 下載</li>
+      </ol>
+    </section>
+
+    <!-- 14 -->
+    <section class="slide" data-title="提示詞範本">
+      <h2>可複用提示詞範本</h2>
+      <pre class="prompt">你是製造業生產主管助理。
+請將附件內產線異常記錄整理成正式異常報告。
+格式包含：異常摘要、發生時間、影響範圍、可能原因、已採取措施、後續追蹤。
+限制：
+1. 不可自行編造資料
+2. 資料不足處標示「需人工確認」
+最後請列出依據與需人工確認項。</pre>
+      <p class="sub">上傳檔寫「附件內…」；若是貼上內容則寫「以下是資料」再貼——兩者不可混用。</p>
+    </section>
+
+    <!-- 15 -->
+    <section class="slide" data-title="SOP與Excel">
+      <h2>SOP 口述 × Excel 產線數據</h2>
+      <div class="grid-2">
+        <div class="panel">
+          <h3>口述 → SOP</h3>
+          <ul>
+            <li>角色：教育訓練專員</li>
+            <li>結構：目的、範圍、工具、步驟、確認項</li>
+            <li>可改一頁一 SOP 或表格版</li>
+            <li>再出 5 題選擇題＋職安缺口檢視</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Excel 數據</h3>
+          <ul>
+            <li>說明欄位：良率、不良率、達成率、停機</li>
+            <li>提出主管關心的約 5 個焦點</li>
+            <li>給可用公式與樞紐配置步驟</li>
+            <li>產出主管摘要，不做假數字</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 16 -->
+    <section class="slide" data-title="溝通改寫">
+      <h2>案例：催交與跨部門溝通</h2>
+      <ol class="steps">
+        <li>上傳口語催交／多方意見紀錄</li>
+        <li>改寫為正式<strong>內部協調函</strong>（清楚、不指責個人）</li>
+        <li>再改寫<strong>對客戶說明</strong>與<strong>對供應商催料</strong></li>
+        <li>萃取待辦：事項／對象／期限</li>
+      </ol>
+    </section>
+
+    <!-- 17 -->
+    <section class="slide" data-title="課堂練習">
+      <h2>課堂練習清單</h2>
+      <div class="checklist">
+        <label><input type="checkbox" /> 加一：進入 Gemini + Lite</label>
+        <label><input type="checkbox" /> 加二：個人智慧化＋連結三應用</label>
+        <label><input type="checkbox" /> 小吃文字整理鏈＋貼 Word</label>
+        <label><input type="checkbox" /> ACE 大阪行程 → Google 企劃書</label>
+        <label><input type="checkbox" /> 截圖圖表分析 → 試算表</label>
+        <label><input type="checkbox" /> 菜單上傳翻譯與配菜</label>
+        <label><input type="checkbox" /> 異常報告四段作業鏈</label>
+        <label><input type="checkbox" /> SOP 或 Excel 擇一完成</label>
+      </div>
+    </section>
+
+    <!-- 18 -->
+    <section class="slide" data-title="易錯點">
+      <h2>最常見易錯點</h2>
+      <ul class="warn">
+        <li>沒登 Google／選錯模型 → 進不去或額度秒爆</li>
+        <li>同一長對話一直追問 → 額度被前文吃掉</li>
+        <li>刪欄沒標欄名 → 整列消失</li>
+        <li>未禁止編造 → 假原因、假負責人、假期限</li>
+        <li>附件／貼上提示詞寫反 → 模型找不到資料</li>
+        <li>把 AI 輸出當最終責任歸屬 → 未做人審</li>
+      </ul>
+    </section>
+
+    <!-- 19 -->
+    <section class="slide" data-title="收尾">
+      <h2>帶走這三件事</h2>
+      <div class="cards three">
+        <article><h3>1. 流程</h3><p>設定 → ACE／六段提示 → 產出 → 人審</p></article>
+        <article><h3>2. 資產</h3><p>把好用提示詞存成文書，每日可一次丟多任務</p></article>
+        <article><h3>3. 定位</h3><p>AI＝整理＋草稿＋檢查清單，不取代現場判斷</p></article>
+      </div>
+      <p class="credit">本簡報依簡良諭老師「AI在工作中的實務應用－製造業零基礎個人實作」課程內容整理為教學用精華版；原課主辦：高雄市工業會。請尊重講師智慧財產權，僅供合法取得課程之學員／講師備課使用。</p>
+    </section>
+  </div>
+
+  <nav class="chrome" aria-label="簡報控制">
+    <button type="button" id="prev" aria-label="上一頁">‹</button>
+    <div class="progress"><div id="bar"></div></div>
+    <span id="counter">1 / 1</span>
+    <button type="button" id="next" aria-label="下一頁">›</button>
+  </nav>
+
+  <div id="overview" class="overview" hidden></div>
+  <script src="./app.js"></script>
+</body>
+</html>
